@@ -32,7 +32,7 @@ public class AutoItEx {
 		//Executing my autoit exe
 		Runtime.getRuntime().exec("C:\\Users\\Sairam\\Desktop\\AutoIT1.exe C:\\Users\\Sairam\\Desktop\\kishor.txt");
 		//Runtime.getRuntime().exec("E:\\lakshman\\auto.exe");
-		System.out.println("programcomplete");
+		
 
 	}
 	
