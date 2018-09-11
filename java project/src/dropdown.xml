@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GroupsTesting" parallel="methods" thread-count="2">
+
+
+<test name="Groups">
+	          <classes>
+		  <class name="testNG.DropDown"></class>
+		  <class name="testNG.DropDown1"></class>
+		 
+	          </classes>	
+	      </test>
+</suite>

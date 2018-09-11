@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [GroupsTesting]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="Groups(failed)">
+    <classes>
+      <class name="testNG.WebTable">
+        <methods>
+          <include name="LaunchApp"/>
+          <include name="readdata"/>
+          <include name="CloseApp"/>
+        </methods>
+      </class> <!-- testNG.WebTable -->
+      <class name="testNG.Registering">
+        <methods>
+          <include name="CloseApp"/>
+          <include name="readData"/>
+          <include name="LaunchApp"/>
+        </methods>
+      </class> <!-- testNG.Registering -->
+      <class name="testNG.ChechTheLinks">
+        <methods>
+          <include name="bustickets"/>
+          <include name="hotels"/>
+          <include name="CloseApp"/>
+          <include name="LaunchApp"/>
+        </methods>
+      </class> <!-- testNG.ChechTheLinks -->
+    </classes>
+  </test> <!-- Groups(failed) -->
+</suite> <!-- Failed suite [GroupsTesting] -->

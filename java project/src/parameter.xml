@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="lakshman automation suite">
+
+
+<test name="Groups">
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="url" value="http://newtours.demoaut.com/"></parameter>
+<parameter name="username" value="lakshman"></parameter>
+<parameter name="password" value="9985401527"></parameter>
+
+	          <classes>
+		  <class name="testNG.ParameterEx"></class>
+		  
+		 
+	          </classes>	
+	      </test>
+</suite>

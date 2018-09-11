@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [lakshman automation suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Groups(failed)">
+    <parameter name="password" value="9985401527"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://newtours.demoaut.com/"/>
+    <parameter name="username" value="lakshman"/>
+    <classes>
+      <class name="testNG.ParameterEx">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+          <include name="parameter" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNG.ParameterEx -->
+    </classes>
+  </test> <!-- Groups(failed) -->
+</suite> <!-- Failed suite [lakshman automation suite] -->

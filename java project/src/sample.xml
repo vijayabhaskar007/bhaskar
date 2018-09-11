@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GroupsTesting" parallel="methods">
+
+
+<test name="package">
+	         
+	         <packages>
+	         <package name="testNG"></package>
+	         </packages>
+	         
+	         </test>
+</suite>

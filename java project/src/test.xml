@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GroupsTesting" parallel="methods" thread-count="2">
+
+
+<test name="Groups">
+	          <classes>
+		  <class name="testNG.ChechTheLinks">  </class>
+		  <class name="testNG.Registering"></class>
+		  <class name="testNG.WebTable"></class>
+		  
+		  
+	          </classes>	
+	      </test>
+</suite>
